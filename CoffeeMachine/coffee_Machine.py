@@ -7,7 +7,6 @@ Created on Fri Oct 22 22:45:28 2021
 
 class CoffeeMachine:
     
-    
     def __init__(self, water, milk, beans, cups, money):
         self.water = water
         self.milk = milk
@@ -129,9 +128,5 @@ class CoffeeMachine:
     def remaining (self,water, milk, beans, cups, money):
         print(f"The coffee machine has:\n{water} of water\n{milk} of milk\n{beans} of coffee beans\n{cups} of disposable cups\n{money} of money")
         self.action(self.state)
-
-
-        
-    
 
 coffee = CoffeeMachine( 400, 540, 120, 9, 550)
