@@ -14,7 +14,6 @@ with open("rating.txt", "r") as f:
     for line in f:
         name, rating = line.split()
         name_list[name] = int(rating)
-f.close()
     
 if name_i not in name_list.keys():
     name_list[name_i] = 0
